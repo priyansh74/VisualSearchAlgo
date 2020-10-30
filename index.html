@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Visualgorithm </title>
+  <link rel="icon" href="icon.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <!-- fontawesome cdn For Icons -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,500;0,600;1,300;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light py-2 shadow-sm ">
+    <a class="navbar-brand pl-5 pl-small-0" href="index.html">
+      <h3 class="title">Visualgorithm</h3>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#algo">Algorithm</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#linear">Linear Search</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#binary">Binary Search</a>
+        </li>
+      </ul>
+
+
+    </div>
+  </nav>
+  <section id="algo" class="shadow-sm">
+
+    <div class="row">
+      <div class="col-sm-6 col-md-5">
+        <div class="card shadow-lg">
+          <div class="card-body">
+            <h5 class="card-title">Linear Search</h5>
+            <p class="card-text">Algorithm
+              Steps involved in this algorithm are:
+              <br>
+              Step 1: Select the first element as the current element.<br>
+              Step 2: Compare the current element with the target element. If matches, then go to step 5.<br>
+              Step 3: If there is a next element, then set current element to next element and go to Step 2.<br>
+              Step 4: Target element not found. <br>
+              Step 5: Go to Step 6.<br>
+              Step 6: Target element found and return location.<br>
+              Step 7: Exit process.</p>
+            <a href="#linear" class="btn btn-outline-success">Working Algorithm</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-7">
+        <div class="card shadow-lg">
+          <div class="card-body">
+            <h5 class="card-title">Binary Search</h5>
+            <p class="card-text">
+              Algorithm Steps involved in this algorithm are:
+              <br>
+              Step 1: Let min = 0 and max = n-1<br>
+              Step 2: Guess the average of max and min, rounded down so that it is an integer.<br>
+              Step 3: If you guessed the number, You found it.<br>
+              Step 4: If the guess was too low, set min to be one larger then the guess.<br>
+              Step 5: If the guess was too high, set max to be one smaller then the guess.<br>
+              Step 6: Go back to step 2.<br>
+              Step 7: Exit Process</p>
+
+
+            </p>
+            <a href="#binary" class="btn btn-outline-success">Working Algorithm</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <i  class="fad fa-angle-double-down fa-5x fadest "></i>
+
+
+
+
+
+
+
+
+
+  </section>
+  <section class="Linear-Search shadow-sm" id="linear">
+    <a href="#algo" class="att">
+      <h2 data-toggle="tooltip" data-placement="bottom" title="In computer science, a linear search or sequential search is a method for finding an element within a list. It sequentially checks each element of the list until a match is found or the whole list has been searched.
+        Class: Search algorithm
+        Worst-case space complexity: O(1) iterative
+       Best-case performance: O(1)
+         Average performance: O(n/2)">Linear Search</h2>
+    </a>
+
+
+    <button type="button" id="b1" class=" sys btn btn-outline-dark">Generate new array</button>
+    <button type="button" id="b2" class=" sys btn btn-outline-dark">Start Linear Search</button>
+    <div class="array">
+
+      <button type="button" class="arrayElements a0" data-toggle="tooltip" data-placement="bottom" title="a[0]th Element">
+        <h4></h4>
+      </button>
+      <button type="button" class="arrayElements a1" data-toggle="tooltip" data-placement="bottom" title="a[1]th Element">
+        <h4></h4>
+      </button>
+      <button type="button" class="arrayElements a2" data-toggle="tooltip" data-placement="bottom" title="a[2]th Element">
+        <h4></h4>
+      </button>
+      <button type="button" class="arrayElements a3" data-toggle="tooltip" data-placement="bottom" title="a[3]th Element">
+        <h4></h4>
+      </button>
+      <button type="button" class="arrayElements a4" data-toggle="tooltip" data-placement="bottom" title="a[4]th Element">
+        <h4></h4>
+      </button>
+      <button type="button" class="arrayElements a5" data-toggle="tooltip" data-placement="bottom" title="a[5]th Element">
+        <h4></h4>
+      </button>
+      <button type="button" class="arrayElements a6" data-toggle="tooltip" data-placement="bottom" title="a[6]th Element">
+        <h4></h4>
+      </button>
+      <button type="button" class="arrayElements a7" data-toggle="tooltip" data-placement="bottom" title="a[7]th Element">
+        <h4></h4>
+      </button>
+      <button type="button" class="arrayElements a8" data-toggle="tooltip" data-placement="bottom" title="a[8]th Element">
+        <h4></h4>
+      </button>
+      <button type="button" class="arrayElements a9" data-toggle="tooltip" data-placement="bottom" title="a[9]th Element">
+        <h4></h4>
+      </button>
+    </div>
+
+
+
+    <div class="hidden">
+      <p>We have Generated array of size 10. <br>Our key Element is : </p>
+    </div>
+
+
+  </section>
+  <section class="Binary-Search" id="binary">
+    <a class="att" href="#algo">
+      <h2 data-toggle="tooltip" data-placement="bottom" title="In computer science, binary search, also known as half-interval search, logarithmic search, or binary chop, is a search algorithm that finds the position of a target value within a sorted array. Binary search compares the target value to the middle element of the array. Wikipedia
+          Worst complexity: O(log n)
+        Average complexity: O(log n)
+        Best complexity: O(1)
+       Space complexity: O(1)
+        Data structure: Array
+       Class: Search algorithm">Binary Search </h2>
+    </a>
+
+
+
+    <button type="button" id="b3" class=" sys btn btn-outline-dark">Generate new array</button>
+    <button type="button" id="b4" class=" sys btn btn-outline-dark">Start Binary Search</button>
+    <div class="array">
+
+      <button type="button" class="arrayElements b0" data-toggle="tooltip" data-placement="bottom" title="b[0]th Element">
+        <h4></h4>
+      </button>
+      <button type="button" class="arrayElements b1" data-toggle="tooltip" data-placement="bottom" title="b[1]th Element">
+        <h4></h4>
+      </button>
+      <button type="button" class="arrayElements b2" data-toggle="tooltip" data-placement="bottom" title="b[2]th Element">
+        <h4></h4>
+      </button>
+      <button type="button" class="arrayElements b3" data-toggle="tooltip" data-placement="bottom" title="b[3]th Element">
+        <h4></h4>
+      </button>
+      <button type="button" class="arrayElements b4" data-toggle="tooltip" data-placement="bottom" title="b[4]th Element">
+        <h4></h4>
+      </button>
+      <button type="button" class="arrayElements b5" data-toggle="tooltip" data-placement="bottom" title="b[5]th Element">
+        <h4></h4>
+      </button>
+      <button type="button" class="arrayElements b6" data-toggle="tooltip" data-placement="bottom" title="b[6]th Element">
+        <h4></h4>
+      </button>
+      <button type="button" class="arrayElements b7" data-toggle="tooltip" data-placement="bottom" title="b[7]th Element">
+        <h4></h4>
+      </button>
+      <button type="button" class="arrayElements b8" data-toggle="tooltip" data-placement="bottom" title="b[8]th Element">
+        <h4></h4>
+      </button>
+      <button type="button" class="arrayElements b9" data-toggle="tooltip" data-placement="bottom" title="b[9]th Element">
+        <h4></h4>
+      </button>
+
+    </div>
+    <div class="hidden1">
+      <p>We have Generated array of size 10. <br>Our key Element is : </p>
+    </div>
+  </section>
+  <footer style="color:white;text-align: center; height: 30px;background-color: #888888;padding: 3%">Priyansh Jha | 2020</footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
